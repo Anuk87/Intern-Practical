@@ -13,9 +13,13 @@
   justify-content: space-between;
   position: relative;
   align-items: center;
-  box-shadow: 3px 3px 10px 6px rgba(41, 40, 40, 0.6);
+  box-shadow: 3px 3px 10px 6px rgba(107, 107, 107, 0.6);
   margin: 20px;
   padding: 0;
+
+  &:hover {
+    box-shadow: 3px 3px 10px 6px rgba(175, 175, 175, 0.6);
+  }
 }
 
 .mianTextContainer {

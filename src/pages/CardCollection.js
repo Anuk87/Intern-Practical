@@ -35,20 +35,28 @@ const initialCardsData = [
 
 const additionalCardsData = [
   {
-    image: "https://i.ibb.co/zRBtypk/Slider-Image-4.jpg",
-    text1: "fafsfs",
-    text2: "gghfhgfh",
-    text3: "ytuythty",
-    text4: "fgfhfhg",
-    buttonLabel: "jnndsfjg",
+    image: "https://i.ibb.co/wsZcr2r/sapphyr-lounge.jpg",
+    text1: "This is dummy text 1",
+    text2: "28 Aug 2023 - 08 Sep 2023",
+    text3: "Whimsical Afternoon Tea at Sapphyr Lounge",
+    text4: "From LKR 20,966.40 Average Per Dinner",
+    buttonLabel: "View All Details",
   },
   {
-    image: "https://i.ibb.co/JqY6Lnr/images-6.jpg",
-    text1: "fafsfs",
-    text2: "gghfhgfh",
-    text3: "ytuythty",
-    text4: "fgfhfhg",
-    buttonLabel: "jnndsfjg",
+    image: "https://i.ibb.co/5Yy9hW0/2.jpg",
+    text1: "This is dummy text 2",
+    text2: "28 Aug 2023 - 08 Sep 2023",
+    text3: "Whimsical Afternoon Tea at Sapphyr Lounge",
+    text4: "From LKR 10,966.40 Average Per Lunch",
+    buttonLabel: "View All Details",
+  },
+  {
+    image: "https://i.ibb.co/rkqgXW5/295690760.jpg",
+    text1: "This is dummy text 3",
+    text2: "28 Aug 2023 - 08 Sep 2023",
+    text3: "Whimsical Afternoon Tea at Sapphyr Lounge",
+    text4: "From LKR 5,966.40 Average Per Lunch",
+    buttonLabel: "View All Details",
   },
 ];
 

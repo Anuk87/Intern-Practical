@@ -21,6 +21,10 @@ const CardContainerMain = styled.div`
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+
+  &:hover {
+    box-shadow: 3px 3px 10px 6px rgba(107, 107, 107, 0.6);
+  }
 `;
 
 const CardContainer = styled.div`
