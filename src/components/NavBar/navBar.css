@@ -1,0 +1,69 @@
+.logo {
+  width: 218px;
+  height: 54px;
+  margin: 0px;
+}
+
+.profile_icon {
+  margin-top: 4px;
+  width: 17px;
+  height: 21px;
+  padding: 0px 20px;
+}
+
+.language_icon {
+  margin-top: 4px;
+  width: 19px;
+  height: 17px;
+  padding: 0px 20px;
+}
+
+.icon_div {
+  display: flex;
+  align-items: center;
+}
+
+.MainDiv {
+  display: flex;
+  margin: 0px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 110px;
+}
+
+.Ulitem {
+  display: flex;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+  padding: 0px 20px;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Add this media query for screens smaller than 768px */
+@media (max-width: 768px) {
+  .MainDiv {
+    padding: 10px 20px; /* Adjust padding for smaller screens */
+    flex-direction: column; /* Stack items vertically */
+    text-align: center;
+  }
+
+  .Ulitem {
+    margin-top: 10px; /* Add some space between items */
+  }
+
+  li {
+    padding: 10px 0; /* Adjust padding for smaller screens */
+  }
+
+  .icon_div {
+    margin: 10px 0;
+  }
+}

@@ -1,0 +1,26 @@
+/* CardCollection.css */
+.card-collection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.view-all-button {
+  text-decoration: underline;
+  display: block;
+  border: none;
+  margin: 20px auto;
+  color: #535003;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: white;
+  font-size: 15px;
+}
+
+.offersText {
+  font-size: 48px;
+  color: #535003;
+  margin-top: 70px;
+  font-family: "Metal", cursive;
+}

@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.mainDivv {
+  position: relative;
+  width: 100%;
+  align-items: center;
+}
+
+.hotelImage {
+  width: 878px;
+  height: 684px;
+}
+
+.srilankaImage {
+  width: 453px;
+  height: 450px;
+  position: absolute;
+  left: 50px;
+  top: 100px;
+}
+
+.destinationsCard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  background-color: #ffffff;
+  box-shadow: 3px 3px 10px 6px rgba(41, 40, 40, 0.6);
+  width: 420px;
+  height: 473px;
+  padding: 35px;
+  top: 65px;
+  right: 100px;
+}
+
+.destinationsCard h1 {
+  font-family: "Metal", cursive;
+  color: #57316e;
+  font-size: 36px;
+}
+
+.destinationsCard p {
+  font-size: 24px;
+  font-family: "Baloo Da 2", cursive;
+  text-align: left;
+}
+
+.destinationsCard div {
+  width: 352px;
+  height: 128px;
+  margin-top: 56px;
+  margin-bottom: 30px;
+}
+
+.destinationsCard button {
+  background-color: #252772;
+  width: 207px;
+  height: 62px;
+  color: #ffffff;
+  font-family: "Metal", cursive;
+  font-size: 30px;
+}

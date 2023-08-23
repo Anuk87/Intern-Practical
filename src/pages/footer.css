@@ -1,0 +1,162 @@
+.aboutDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footerMainDivOne {
+  width: 100%;
+  height: 150vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  /* background-image: url("https://i.ibb.co/LJgs383/shangri-la-hotel-syd-s1180x560.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.5; 
+  z-index: -1; */
+}
+
+.footerMainDivOne::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60%;
+  background-image: url("https://i.ibb.co/LJgs383/shangri-la-hotel-syd-s1180x560.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.design {
+  position: absolute;
+  top: -120px;
+  width: 100%;
+  height: 144px;
+  background-image: url("https://i.ibb.co/NVfXpK5/footer-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.design2 {
+  position: absolute;
+  bottom: -50px;
+  width: 100%;
+  height: 384px;
+  background-image: url("https://i.ibb.co/XpPJv3j/footer-design.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footerMainDivTwo {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: white;
+  bottom: 110px;
+}
+
+.footerMainDiv {
+  width: 1100px;
+  height: 465px;
+  position: relative;
+  top: 10px;
+}
+
+.footerMainDiv a {
+  margin-top: 20px;
+}
+
+.footerMainDiv a:hover {
+  color: #535003;
+  font-weight: 200;
+}
+
+.footerMainDiv h1 {
+  font-family: "Metal", cursive;
+  color: #57316e;
+}
+
+.getInTouch {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  left: 350px;
+  top: 0px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  left: 350px;
+  top: 280px;
+}
+
+.followUp {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  right: 150px;
+  top: 0px;
+  align-items: center;
+}
+.inputBox {
+  position: absolute;
+  right: 70px;
+  top: 150px;
+}
+.textDetails {
+  position: absolute;
+  width: 340px;
+  height: 95px;
+  text-align: left;
+  right: 90px;
+  top: 330px;
+}
+
+.followUp img {
+  width: 26px;
+  height: 26px;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.onlyP {
+  margin-right: 50px;
+}
+
+.inputField {
+  width: 340px;
+  height: 38px;
+  padding: 10px;
+  font-size: 15px;
+
+  input[type="text"] {
+    width: 100%;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  input[type="text"]:focus {
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+  }
+}
+
+.inputBox h1 {
+  margin-bottom: 20px;
+}

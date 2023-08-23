@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.mainDivContainer {
+  background-color: white;
+
+  width: 430px;
+  height: 675px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+  box-shadow: 3px 3px 10px 6px rgba(41, 40, 40, 0.6);
+  margin: 20px;
+  padding: 0;
+}
+
+.mianTextContainer {
+  height: 100%;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: flex-start;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.heading {
+  padding-bottom: 20px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.date {
+  padding-bottom: 30px;
+  color: #7b7b7b;
+  font-size: 16px;
+}
+
+.thirdText {
+  padding-bottom: 54px;
+  font-size: 20px;
+}
+
+.fourthtext {
+  padding-bottom: 43px;
+  font-size: 15px;
+  color: #7b7b7b;
+}
+
+.price {
+  padding-bottom: 35px;
+  font-size: 20px;
+}
+
+.buttonClass {
+  color: #817956;
+  width: 152px;
+  height: 56px;
+  margin-bottom: 22px;
+  font-size: 20px;
+  background-color: white;
+}
+
+.imgClass {
+  width: 430px;
+  height: 280px;
+}
