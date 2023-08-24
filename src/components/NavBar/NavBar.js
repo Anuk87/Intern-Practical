@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import "./navBar.css";
 import SecondNav from "../SecondNav/SecondNav";
 
 function NavBar() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
     <div>
       <div className="MainDiv">
@@ -13,7 +19,12 @@ function NavBar() {
             alt="Logo"
           />
         </div>
-        <ul className="Ulitem">
+        <div className="menu-icon" onClick={toggleMenu}>
+          <div className={`bar ${menuOpen ? "open" : ""}`} />
+          <div className={`bar ${menuOpen ? "open" : ""}`} />
+          <div className={`bar ${menuOpen ? "open" : ""}`} />
+        </div>
+        <ul className={`Ulitem ${menuOpen ? "open" : ""}`}>
           <li>
             <div className="icon_div">
               <img
@@ -24,31 +35,33 @@ function NavBar() {
               <a href="##">SigIn</a>
             </div>
           </li>
-          <li>|</li>
+          <li className="separator">|</li>
           <li>
             <a href="##">Join Now</a>
           </li>
-          <li>|</li>
+          <li className="separator">|</li>
           <li>
             <a href="##">Find Reservation</a>
           </li>
-          <li>|</li>
-          <div className="icon_div">
-            <img
-              className="language_icon"
-              src="https://i.ibb.co/RctsKCK/language-icon.png"
-              alt="language_icon"
-            />
-            <a href="##">English</a>
-          </div>
-          <li>|</li>
+          <li className="separator">|</li>
+          <li>
+            <div className="icon_div">
+              <img
+                className="language_icon"
+                src="https://i.ibb.co/RctsKCK/language-icon.png"
+                alt="language_icon"
+              />
+              <a href="##">English</a>
+            </div>
+          </li>
+          <li className="separator">|</li>
           <li>
             <a href="##">LKR</a>
           </li>
         </ul>
-      </div>
+      </div >
       <SecondNav />
-    </div>
+    </div >
   );
 }
 

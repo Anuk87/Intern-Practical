@@ -47,23 +47,77 @@ a {
   color: black;
 }
 
-/* Add this media query for screens smaller than 768px */
+
+.menu-icon {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin: 3px 0;
+  transition: 0.4s;
+}
+
+.open {
+  /* transform: rotate(-45deg); */
+}
+
+.Ulitem.open {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 60px;
+  right: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  z-index: 3;
+  gap: 10px;
+}
+
+.Ulitem.open li {
+  text-align: left; 
+  margin-bottom: 10px; 
+}
+
+.separator {
+  display: inline; 
+}
+
+.Ulitem.open .separator {
+  display: none; 
+}
+
+
 @media (max-width: 768px) {
   .MainDiv {
-    padding: 10px 20px; /* Adjust padding for smaller screens */
-    flex-direction: column; /* Stack items vertically */
+    padding: 10px 20px; 
+    /* flex-direction: column;  */
     text-align: center;
   }
 
   .Ulitem {
-    margin-top: 10px; /* Add some space between items */
+    display: none; 
+    align-items: start;
   }
 
-  li {
-    padding: 10px 0; /* Adjust padding for smaller screens */
+  .menu-icon {
+    display: flex; 
+    align-items: center;
+    justify-content: flex-end;
   }
 
-  .icon_div {
-    margin: 10px 0;
+  .profile_icon {
+    margin-top: 4px;
+    padding: 0px 10px 0px 0px;
+  }
+  
+  .language_icon {
+    margin-top: 4px;
+    padding: 0px 10px 0px 0px;
   }
 }
