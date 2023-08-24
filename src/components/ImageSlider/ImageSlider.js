@@ -19,11 +19,11 @@ const ImageSlider = () => {
   const [Children, setChildren] = useState("");
   const [currentImage, setCurrentImage] = useState(0);
   const images = [
-    "./assets/images/slide1.jpg",
-    "./assets/images/slide2.jpg",
-    "./assets/images/slide3.jpg",
-    "./assets/images/slide4.jpg",
-    "./assets/images/slide5.jpg",
+    "https://i.ibb.co/4872Zdw/hotel-1979406-1280.jpg",
+    "https://i.ibb.co/NTkqs1n/dragon-palace-hotel-4534092-1280.jpg",
+    "https://i.ibb.co/vjvVPbM/pool-384573-1920.jpg",
+    "https://i.ibb.co/0FjpXCM/bed-4416515-1280.jpg",
+    "https://i.ibb.co/CJkK01k/hotel-1831072-1280.jpg",
   ];
 
   const handleRoomChange = (event) => {
